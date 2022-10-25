@@ -1,0 +1,29 @@
+1. 
+Zmienne, na które rzutowane są wartości znajdujące się po prawej stronie operatora przypisania przyjmują wartości : 
+
+Zmienne przyjmują wartości przekształcone na typ umieszczony w nawiasie okrągłym, jeśli istnieje taka możliwość, możliwa jest utrata danych np. jeśli liczba wykracza poza zakres.
+
+- z inta/shorta na char lub string liczba interpretowana jest jako numer tablicy ASCII czyli znak.
+- z inta na short liczba pozostaje taka sama, jeśli nie wykracza poza zakres shorta
+
+ Czy zawsze to rzutowanie jest konieczne? :
+- Rzutowanie jest niekonieczne, jeśli obie zmienne są zmiennoprzecinkowe lub całkowite, i jeśli wartość rzutowana nie wykracza poza zakres zmiennej określonej w rzutowaniu. 
+ 
+ Jakie wartości przyjmują zmienne, na których wykonane były działania? :
+- Po dodaniu liczby do zmiennej typu char wartość zmiennej jest interpretowana jako wartość tablicy ascii, na tej wartości wykonywane są działania.
+- Analogicznie wartość char rzutowana na inta jest interpretowana jako jej numer w tablicy ASCII ,i na niej wykonywane są działania
+
+Jakie są problemy z liczbami zmiennoprzecinkowymi? Co jest ich przyczyną? :
+- Przy rzutowaniu liczby zmiennoprzecinkowej na zmienną całkowitą tracona jest część danych, ucinana jest część ułamkowa liczby zmiennoprzecinkowej. Przyczyną jest nieobsługiwanie przez zmienne całkowite części ułamkowej liczby.
+
+2.
+Nie dla każdego typu zmiennej wynik będzie dobry, zmienna powinna być typu liczowego, a jej zakres ma obejmować wartość silni.
+
+4.
+Najlepszym przypadkiem w problemie sortowania tablicy jest tablica która jest już posortowana. Najgorszym przypadkiem będzie tablica która ma wartości ustawione w przeciwnym porządku do pożądanego, jednak specyficzny przypadek zależy od algorytmu.
+Zmianą jaką należy zastosować w przypadku sortowania bąbelkowego jest odejmowanie zmiennej i w pętli :  for (int j = 0; j < input.length - 1 - i; ++j). Oszczędza to iteracje przez posortowane elementy tablicy. Zlożoność czasowa zostane zmniejszona o połowe.
+
+Złożoności czasowe :
+- algorytm sortowania bąbelkowego: O(n^2) - najgorszy przypadek, O(n) - najlepszy przypadek 
+- algorytm sortowanie przez złączanie : O(nlogn)
+
