@@ -1,0 +1,15 @@
+Laboratorium 4. Bartłomiej Dmitruk
+
+1. Najdłuższy palindrom
+
+Pseudokod należało zaimplementować w języku Java, utworzyć poszczególne metody, dodać zmienną globalną (index). Przydatna okazała się funckja substring.
+
+2. Pierwiastki funkcji 
+
+Do programu przekazywane są zmienne a,b,c od użytkownika, wywoływana jest funckja 3 argumentową, obliczającą pierwiastki funckji kwadratowej. Wewnątrz niej użyłem warunku, który może wywołać funkcję 2 argumentową, do obliczania pierwiastków funkcji liniowej.
+
+3. Opracowywanie algorytmów (fabryka)
+
+Do programu przekazywane są zmienne pobieane przez użytkownika, wywoływana jest metoda typu void wyświetlająca tabelkę. Działanie z resztą określa czy danego dnia maszyna oddaje wyprodukowany towar. 
+
+
