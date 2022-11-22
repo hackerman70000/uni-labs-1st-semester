@@ -1,0 +1,26 @@
+1. 
+Zmienna b1 jest obliczana przez logiczną operacje AND uwzględniając bity, natomiast b2 jest obliczane operatorem AND uwzględniając wartości logiczne, a nie interpretując zapisu binarnego wartości. 
+
+2.
+Zmienna b3 jest obliczana przez logiczną operacje AND uwzględniając bity, natomiast b4 jest obliczane operatorem AND uwzględniając wartości logiczne, a nie interpretując zapisu binarnego wartości. 
+
+3.
+Zmienna b5 jest obliczana przez logiczną operacje OR uwzględniając bity, natomiast b6 jest obliczane operatorem OR uwzględniając wartości logiczne, a nie interpretując zapisu binarnego wartości. 
+
+4.
+Zmienna b5 jest obliczana przez logiczną operacje OR uwzględniając bity, natomiast b6 jest obliczane operatorem OR uwzględniając wartości logiczne, a nie interpretując zapisu binarnego wartości.
+
+5.
+Operatory || analizuje najpierw lewą strone wyrażenia, jeśli ma wartość true prawa strona nie jest sprawdzana. Operator | analizuje zawsze dwie strony wyrażenia. Operator && analizuje najpierw lewą strone wyrażenia, jeśli ma wartość false prawa strona nie jest sprawdzana.
+Operator & analizuje zawsze dwie strony wyrażenia.
+
+6.
+Side effect jest zmianami w stanie programu, które może wprowadzać metoda lub wyrażenie.
+
+7.
+Klasa Formatter służy do formatowania łańcuchów znaków, daje możlwość wyrównania i justowania. Wspiera takie typy jak Calendar, byte.
+
+8.
+1 << Integer.SIZE jest równe 1, ponieważ ilość bitów przed wykonaniem jest brana
+względem modulo rozmiar.
+
