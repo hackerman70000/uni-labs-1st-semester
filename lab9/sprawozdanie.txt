@@ -1,0 +1,25 @@
+APRO1, semestr 22Z, Bartłomiej, nr albumu 324911, grupa 102, godz. 14:15
+
+**Sprawozdanie z laboratorium nr 9**
+
+Złożoności czasowe algorytmów :
+
+zadanie 1 :
+
+najlepszy przypadek :  O(1)
+średni przypadek :  O(n^2)
+najgorszy przypadek :  O(n^2)
+
+zadanie 2 :
+
+najlepszy przypadek : O(1)
+średni przypadek :      O(n)
+najgorszy przypadek :  O(n)
+
+
+zadanie 3 :
+
+najlepszy przypadek : O(1)
+średni przypadek :   O(n)
+najgorszy przypadek :   O(n)
+
